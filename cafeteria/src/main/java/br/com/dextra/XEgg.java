@@ -7,7 +7,7 @@ import java.util.List;
 public class XEgg extends Lanche{
 
 	public XEgg() {
-		super("XEgg", ingredienterXEgg());
+		super(ingredienterXEgg());
 	}
 
 	private static List<Ingrediente> ingredienterXEgg() {

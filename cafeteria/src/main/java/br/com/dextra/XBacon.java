@@ -6,7 +6,7 @@ import java.util.List;
 public class XBacon extends Lanche{
 
 	public XBacon() {
-		super("XBacon", ingredientesXBacon());
+		super(ingredientesXBacon());
 	}
 
 	private static List<Ingrediente> ingredientesXBacon() {

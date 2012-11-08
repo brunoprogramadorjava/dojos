@@ -7,7 +7,7 @@ import java.util.List;
 public class XFrango extends Lanche{
 
 	public XFrango() {
-		super("XFrango", ingredientesXFrango());
+		super(ingredientesXFrango());
 	}
 
 	private static List<Ingrediente> ingredientesXFrango() {

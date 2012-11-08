@@ -7,7 +7,7 @@ import java.util.List;
 public class XTudo extends Lanche{
 
 	public XTudo() {
-		super("XTudo", ingredientesXTudo());
+		super(ingredientesXTudo());
 	}
 
 	private static List<Ingrediente> ingredientesXTudo() {
